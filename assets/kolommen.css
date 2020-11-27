@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #c2c2fd;
+    border: 2px solid #a9a9db;
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 960px) and (min-width: 640px){
+    section{
+        width: 25%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 640px){
+    section{
+        width: 100%;
+        float: none;
+    }
+}

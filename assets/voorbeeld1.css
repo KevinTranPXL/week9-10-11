@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box; /*Geeft alles een boxwaarde (telt padding en border mee alles behalve marge*/
+}
+
+header {
+    padding: 15px;
+    border: 2px solid #f00;
+    width: 100%;
+}
+
+nav {
+    padding: 15px;
+    border: 2px solid #f00;
+    width: 25%;
+    float: left;
+}
+
+main {
+    padding: 15px;
+    border: 2px solid #f00;
+    width: 75%;
+    float: left;
+}

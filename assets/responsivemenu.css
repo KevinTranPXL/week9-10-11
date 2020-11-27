@@ -1,0 +1,39 @@
+* {
+margin: 0px;
+}
+
+nav {
+
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    background-color: #1a1919;
+    overflow: hidden; /*Essentieel voor zichbaarheid*/
+}
+
+nav ul li {
+float: left;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    display: block;
+    padding: 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+nav ul li a:hover {
+background-color: #a5a3a3;
+}
+
+@media screen and (max-width: 600px){
+    nav ul li {
+        float: none;
+    }
+}
