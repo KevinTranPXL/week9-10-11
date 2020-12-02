@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    margin: 0px;
+}
 section{
     background-color: #c2c2fd;
     border: 2px solid #a9a9db;

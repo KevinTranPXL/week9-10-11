@@ -1,16 +1,17 @@
 * {
 margin: 0px;
+    padding: 0px;
 }
 
 nav {
-
+    background-color: #1a1919;
 }
 
 nav ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    background-color: #1a1919;
+
     overflow: hidden; /*Essentieel voor zichbaarheid*/
 }
 
@@ -35,5 +36,6 @@ background-color: #a5a3a3;
 @media screen and (max-width: 600px){
     nav ul li {
         float: none;
+        width: 100%;
     }
 }
